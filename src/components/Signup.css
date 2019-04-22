@@ -1,0 +1,54 @@
+#signupPage {
+  display: flex;
+  flex-direction: column;
+  background-color: #489995;
+  text-align: center;
+  height: 100vh;
+}
+
+.signupSection {
+  width: 30%;
+  align-self: center;
+  min-width: 500px;
+  min-height: 400px;
+  background-color: #d6dadb;
+  padding: 2%;
+  text-align: left;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 3px rgb(106, 106, 114);
+}
+
+.signupHome {
+  color: white;
+  margin: 40px 0;
+}
+
+.signupButtonAlt {
+  color: white;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px;
+  width: 40%;
+  height: 28px;
+  text-align: center;
+  padding: 16px 10px;
+  border-radius: 3px;
+  background-color: #4a8d24;
+  cursor: pointer;
+}
+
+.loginButtonAlt {
+  display: inline-block;
+  width: 40%;
+  height: 28px;
+  font-size: 25px;
+  background-color: #3898d5;
+  text-align: center;
+  margin: 15px;
+  padding: 16px 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}

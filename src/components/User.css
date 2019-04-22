@@ -1,0 +1,104 @@
+#userPage {
+  display: flex;
+  flex-direction: row;
+  background-color: #44a32d;
+  position: relative;
+  height: 100vh;
+}
+
+.home {
+  position: absolute;
+  top: 0;
+  padding-left: 10px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.detailsBox {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  background-color: rgb(231, 231, 231);
+  height: 100vh;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: -3px 5px 5px #6b6b6b;
+}
+
+.displayName {
+  font-size: 30px;
+  font-weight: 600;
+  color: #505050;
+  margin-bottom: 10px;
+}
+
+.email {
+  color: #a0a0a0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.accountAge,
+.security {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #505050;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 5%;
+}
+.accountAge {
+  margin-bottom: 40%;
+}
+
+.label {
+  color: #505050;
+  font-weight: 600;
+}
+
+.value {
+  position: absolute;
+  right: 0;
+  color: #505050;
+}
+
+.actions {
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  width: 90%;
+}
+
+.resetPassword {
+  margin: 10% 0px;
+  font-size: 25px;
+  color: #5fc9f8;
+  cursor: pointer;
+}
+
+.logout {
+  font-size: 25px;
+  color: #fc3d39;
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  color: white;
+}
+
+button {
+  border-radius: 50%;
+  padding: 15px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
